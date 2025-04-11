@@ -1,11 +1,11 @@
 {
 	"$schema": "https://mintlify.com/docs.json",
 	"theme": "mint",
-	"name": "Help Hub",
+	"name": "Memorang Help Hub",
 	"colors": {
-		"primary": "#16A34A",
+		"primary": "#0D9373",
 		"light": "#07C983",
-		"dark": "#15803D"
+		"dark": "#0D9373"
 	},
 	"favicon": "/favicon.svg",
 	"navigation": {
@@ -131,27 +131,27 @@
 		}
 	},
 	"logo": {
-		"light": "/logo/light.svg",
-		"dark": "/logo/dark.svg"
+		"light": "https://memorang.com/logos/memorang/organization/light.svg",
+		"dark": "https://memorang.com/logos/memorang/organization/dark.svg"
 	},
 	"navbar": {
 		"links": [
 			{
 				"label": "Support",
-				"href": "mailto:hi@mintlify.com"
+				"href": "mailto:support@memorang.com"
 			}
 		],
 		"primary": {
 			"type": "button",
-			"label": "Dashboard",
-			"href": "https://dashboard.mintlify.com"
+			"label": "Request Early Access",
+			"href": "https://airtable.com/app9h6p5VaBb0gVLi/shr50QFsfCjeXI95n"
 		}
 	},
 	"footer": {
 		"socials": {
-			"x": "https://x.com/mintlify",
-			"github": "https://github.com/mintlify",
-			"linkedin": "https://linkedin.com/company/mintlify"
+			"x": "https://x.com/memorangai",
+			"github": "https://github.com/memorang",
+			"linkedin": "https://www.linkedin.com/company/memorang"
 		}
 	}
 }
