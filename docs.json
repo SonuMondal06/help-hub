@@ -26,17 +26,17 @@
 							{
 								"group": "Organizations",
 								"pages": [
+									"administration/organizations/what-is-an-organization",
 									"administration/organizations/can-i-change-the-name-of-my-organization",
-									"administration/organizations/how-to-manage-members-in-my-organization",
 									"administration/organizations/how-to-invite-members-to-my-organization",
-									"administration/organizations/what-is-an-organization"
+									"administration/organizations/how-to-manage-members-in-my-organization"
 								]
 							},
 							{
 								"group": "Projects",
 								"pages": [
-									"administration/projects/how-do-i-switch-between-projects",
-									"administration/projects/what-is-a-project"
+									"administration/projects/what-is-a-project",
+									"administration/projects/how-do-i-switch-between-projects"
 								]
 							}
 						]
