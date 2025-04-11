@@ -1,0 +1,20 @@
+{
+	"name": "help-hub",
+	"version": "1.0.0",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "mintlify dev",
+		"generate": "mintlify-scrape openapi-file",
+		"generate:all": "bun run scripts/bulk-generate.ts",
+		"check": "biome check .",
+		"check:fix": "biome check --write .",
+		"check:unsafe": "biome check --write --unsafe ."
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@mintlify/scraping": "^4.0.40",
+		"mintlify": "^4.0.410"
+	}
+}

@@ -1,0 +1,157 @@
+{
+	"$schema": "https://mintlify.com/docs.json",
+	"theme": "mint",
+	"name": "Help Hub",
+	"colors": {
+		"primary": "#16A34A",
+		"light": "#07C983",
+		"dark": "#15803D"
+	},
+	"favicon": "/favicon.svg",
+	"navigation": {
+		"tabs": [
+			{
+				"tab": "Guides",
+				"groups": [
+					{
+						"group": "Getting Started",
+						"pages": [
+							"getting-started/what-is-memorang-hub",
+							"getting-started/what-you-can-do-with-memorang-hub"
+						]
+					},
+					{
+						"group": "Administration",
+						"pages": [
+							{
+								"group": "Organizations",
+								"pages": [
+									"administration/organizations/can-i-change-the-name-of-my-organization",
+									"administration/organizations/how-to-manage-members-in-my-organization",
+									"administration/organizations/how-to-invite-members-to-my-organization",
+									"administration/organizations/what-is-an-organization"
+								]
+							},
+							{
+								"group": "Projects",
+								"pages": [
+									"administration/projects/how-do-i-switch-between-projects",
+									"administration/projects/what-is-a-project"
+								]
+							}
+						]
+					},
+					{
+						"group": "EdSpace",
+						"pages": [
+							"edspace/what-is-edspace",
+							{
+								"group": "Access Codes",
+								"pages": [
+									"edspace/access-codes/how-to-invalidate-an-access-code",
+									"edspace/access-codes/how-to-resend-access-codes",
+									"edspace/access-codes/how-to-identify-the-redeemed-status-of-an-access-code",
+									"edspace/access-codes/how-to-find-an-order-associated-with-an-access-code",
+									"edspace/access-codes/what-are-access-codes"
+								]
+							},
+							{
+								"group": "Customers",
+								"pages": [
+									"edspace/customers/how-to-reset-a-customers-practice-tests",
+									"edspace/customers/how-to-remove-access-from-a-customer",
+									"edspace/customers/how-to-add-access-to-a-customer",
+									"edspace/customers/how-to-update-a-customers-email-address",
+									"edspace/customers/how-can-i-view-customer-information",
+									"edspace/customers/what-are-customers"
+								]
+							},
+							{
+								"group": "E-commerce Integrations",
+								"pages": [
+									"edspace/e-commerce-integrations/how-to-update-an-e-commerce-integration",
+									"edspace/e-commerce-integrations/how-to-disable-an-e-commerce-integration",
+									"edspace/e-commerce-integrations/supported-e-commerce-platforms",
+									"edspace/e-commerce-integrations/how-to-integrate-memorang-with-your-existing-e-commerce-platform",
+									"edspace/e-commerce-integrations/what-are-e-commerce-integrations"
+								]
+							},
+							{
+								"group": "Orders",
+								"pages": [
+									"edspace/orders/how-to-check-the-order-status",
+									"edspace/orders/how-can-i-search-for-an-order",
+									"edspace/orders/what-are-orders"
+								]
+							},
+							{
+								"group": "Products",
+								"pages": [
+									"edspace/products/how-to-delete-a-product",
+									"edspace/products/how-to-update-a-product",
+									"edspace/products/how-to-create-a-product",
+									"edspace/products/what-are-products"
+								]
+							}
+						]
+					},
+					{
+						"group": "Edwrite",
+						"pages": ["edwrite/what-is-edwrite"]
+					},
+					{
+						"group": "Edflow",
+						"pages": [
+							"edflow/what-is-an-agent",
+							"edflow/what-is-a-large-language-model-llm",
+							"edflow/what-is-the-difference-between-a-generator-and-an-evaluator",
+							"edflow/what-is-a-model-in-edflow",
+							"edflow/can-i-modify-my-agent-after-its-created",
+							"edflow/how-do-i-choose-the-right-agent-type",
+							"edflow/can-i-use-media-in-the-agents-task",
+							"edflow/what-should-i-do-if-the-agents-output-is-not-what-i-expected",
+							"edflow/how-do-i-know-which-model-to-select",
+							"edflow/can-i-use-this-agent-in-conjunction-with-other-tools",
+							"edflow/can-i-configure-the-outputs-for-specific-formats",
+							"edflow/what-is-the-playground-in-edflow"
+						]
+					},
+					{
+						"group": "General",
+						"pages": [
+							"general/how-to-export-data",
+							"general/how-to-use-saved-views"
+						]
+					}
+				]
+			}
+		],
+		"global": {
+			"anchors": []
+		}
+	},
+	"logo": {
+		"light": "/logo/light.svg",
+		"dark": "/logo/dark.svg"
+	},
+	"navbar": {
+		"links": [
+			{
+				"label": "Support",
+				"href": "mailto:hi@mintlify.com"
+			}
+		],
+		"primary": {
+			"type": "button",
+			"label": "Dashboard",
+			"href": "https://dashboard.mintlify.com"
+		}
+	},
+	"footer": {
+		"socials": {
+			"x": "https://x.com/mintlify",
+			"github": "https://github.com/mintlify",
+			"linkedin": "https://linkedin.com/company/mintlify"
+		}
+	}
+}
