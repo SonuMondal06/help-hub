@@ -1,0 +1,13 @@
+## Related articles
+
+export const RelatedArticles = ({ articles }) => {
+  return (
+    <ul>
+      {articles.map((article) => (
+        <li key={article.url}>
+          <Link href={article.url}>{article.title}</Link>
+        </li>
+      ))}
+    </ul>
+  );
+};
