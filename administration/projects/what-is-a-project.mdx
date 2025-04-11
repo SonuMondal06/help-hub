@@ -5,3 +5,30 @@ description: Understanding Projects in Memorang Hub.
 
 A project in Memorang Hub is a unit for managing and coordinating specific tasks, content, or AI applications.
 Projects can be managed independently, facilitating efficient handling of various initiatives.
+
+import Content, { RelatedArticles } from '/snippets/related-articles.mdx';
+
+<Content />
+
+<RelatedArticles articles={[
+  {
+    title: "What is an Organization?",
+    url: "administration/organizations/what-is-an-organization"
+  },
+  {
+    title: "How to Invite Members to My Organization?",
+    url: "administration/organizations/how-to-invite-members-to-my-organization"
+  },
+  {
+    title: "How Do I Switch Between Projects?",
+    url: "administration/projects/how-do-i-switch-between-projects"
+  },
+  {
+    title: "How to Manage Members in My Organization?",
+    url: "administration/organizations/how-to-manage-members-in-my-organization"
+  },
+  {
+    title: "Can I Change the Name of My Organization?",
+    url: "administration/organizations/can-i-change-the-name-of-my-organization"
+  }
+]} />
