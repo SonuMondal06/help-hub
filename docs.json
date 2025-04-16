@@ -43,7 +43,57 @@
 					},
 					{
 						"group": "EdSpace",
-						"pages": ["edspace/what-is-edspace"]
+						"pages": [
+							"edspace/what-is-edspace",
+							{
+								"group": "Products",
+								"pages": [
+									"edspace/products/what-are-products",
+									"edspace/products/how-to-create-a-product",
+									"edspace/products/how-to-update-a-product",
+									"edspace/products/how-to-delete-a-product"
+								]
+							},
+							{
+								"group": "E-commerce Integrations",
+								"pages": [
+									"edspace/e-commerce-integrations/what-are-e-commerce-integrations",
+									"edspace/e-commerce-integrations/supported-e-commerce-platforms",
+									"edspace/e-commerce-integrations/how-to-integrate-memorang-with-your-existing-e-commerce-platform",
+									"edspace/e-commerce-integrations/how-to-update-an-e-commerce-integration",
+									"edspace/e-commerce-integrations/how-to-disable-an-e-commerce-integration"
+								]
+							},
+							{
+								"group": "Orders",
+								"pages": [
+									"edspace/orders/what-are-orders",
+									"edspace/orders/how-can-i-search-for-an-order",
+									"edspace/orders/how-to-check-the-order-status"
+								]
+							},
+							{
+								"group": "Access Codes",
+								"pages": [
+									"edspace/access-codes/what-are-access-codes",
+									"edspace/access-codes/how-to-resend-access-codes",
+									"edspace/access-codes/how-to-invalidate-an-access-code",
+									"edspace/access-codes/how-to-identify-the-redeemed-status-of-an-access-code",
+									"edspace/access-codes/how-to-find-an-order-associated-with-an-access-code"
+								]
+							},
+							{
+								"group": "Customers",
+								"pages": [
+									"edspace/customers/what-are-customers",
+									"edspace/customers/how-can-i-view-customer-information",
+									"edspace/customers/how-to-update-a-customers-email-address",
+									"edspace/customers/how-to-add-access-to-a-customer",
+									"edspace/customers/how-to-remove-access-from-a-customer",
+									"edspace/customers/how-to-reset-a-customers-practice-tests"
+								]
+							}
+						]
 					},
 					{
 						"group": "Edwrite",
@@ -54,15 +104,15 @@
 						"pages": [
 							"edflow/what-is-an-agent",
 							"edflow/what-is-a-large-language-model-llm",
-							"edflow/what-is-the-difference-between-a-generator-and-an-evaluator",
 							"edflow/what-is-a-model-in-edflow",
-							"edflow/can-i-modify-my-agent-after-its-created",
+							"edflow/what-is-the-difference-between-a-generator-and-an-evaluator",
 							"edflow/how-do-i-choose-the-right-agent-type",
-							"edflow/can-i-use-media-in-the-agents-task",
-							"edflow/what-should-i-do-if-the-agents-output-is-not-what-i-expected",
 							"edflow/how-do-i-know-which-model-to-select",
-							"edflow/can-i-use-this-agent-in-conjunction-with-other-tools",
+							"edflow/can-i-modify-my-agent-after-its-created",
+							"edflow/can-i-use-media-in-the-agents-task",
 							"edflow/can-i-configure-the-outputs-for-specific-formats",
+							"edflow/what-should-i-do-if-the-agents-output-is-not-what-i-expected",
+							"edflow/can-i-use-this-agent-in-conjunction-with-other-tools",
 							"edflow/what-is-the-playground-in-edflow"
 						]
 					},
